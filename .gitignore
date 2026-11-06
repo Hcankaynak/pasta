@@ -1,2 +1,12 @@
 build/
 .DS_Store
+
+# Xcode per-user files (window layout, open tabs) — not part of the project
+xcuserdata/
+*.xcuserstate
+
+# Signing files — never commit these
+*.p12
+*.cer
+*.mobileprovision
+*.provisionprofile
